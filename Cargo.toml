@@ -1,0 +1,10 @@
+[package]
+name = "ping-pong"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+lto = true
+
+[dependencies]
+notan = "0.8.0"
